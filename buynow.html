@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tech Zone - Checkout</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles/buynow.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="images/tech-zone-logo.png" />
+	</head>
+	<body>
+    <header>
+        <div class="headeri">
+            <a href="home.html"><img src="images/tech-zone-logo.png" width="65" height="65" /></a>
+        </div>
+	</header>
+		<h1 id="checkout"><big>Checkout</big></h1>
+		<form method="post" action="php/buynow.php" id="mainForm">
+			<div class="klienti">
+				<p>
+					<h2><u>Termet dhe Kriteret</u></h2>
+					<br>
+					<b><i>Më poshtë gjindet butoni "Lexo dhe Konfirmo" <br> i cili ju tregon informacione rreth termeve dhe kritereve <br> që duhet japur për blerje të produktit dhe realizimin e porosisë!</i></b>
+				</p>
+				<button type="button" id="termetKushtet">Lexo dhe Konfirmo</button>
+				<br>
+				<br>
+				<input type="checkbox" required>
+				<label><b>Unë pranojë të gjitha termet dhe kriteret që ofron kompania "Tech Zone".</b></label>
+				<div id="myBox" class="alert">
+					<div class="alert-permbajtja">
+						<h1><big>Termet dhe Kriteret</big></h1>
+						<img src="images/Porosia.png" width="75" height="75" />
+						<br>
+						<p>
+							<b><i>Blerja e produktit funksionon vetëm në rastin kur klienti ka mbushur të gjitha fushat e kërkuara për të dhëna në mënyrë korrekte dhe pastaj duke klikuar në butonin "Konfirmo Blerjen".</i></b>
+						</p>
+						<img src="images/Sukses.png" width="75" height="75" />
+						<br>
+						<p>
+							<b><i>Kështu që pasi klienti ka japur autorizimin dhe ka pranuar me vetëdije që blerja të bëhet, kjo na tregon se procesi i blerjës së produktit është kryer me sukses dhe se porosia do të realizohet.</i></b>
+						</p>
+						<br>
+						<span class="okay">OK</span>
+					</div>
+				</div>
+				<br>
+				<br>
+				<h2><u>Të dhënat e klientit</u></h2>
+				<br>
+				<input type="text" name="emri" placeholder="Emri" size="35" class="required" minlength="2" maxlength="15">
+				<input type="text" name="mbiemri" placeholder="Mbiemri" size="35" class="required" minlength="2" maxlength="15">
+				<br>
+				<br>
+				<input type="text" name="shteti" list="shtetet" placeholder="Shteti" size="35" class="required" minlength="5" maxlength="15">
+				<datalist id="shtetet">
+					<option>Kosova</option>
+					<option>Shqipëria</option>
+					<option>Maqedonia</option>
+				</datalist>
+				<input type="text" name="qyteti" placeholder="Qyteti" size="35" class="required" minlength="4" maxlength="15">
+				<br>
+				<br>
+				<input type="text" name="adresa" placeholder="Adresa" size="35" class="required" minlength="4" maxlength="15">
+				<input type="text" name="kodipostal" placeholder="Kodi postal" size="35" class="required" minlength="4" maxlength="10">
+				<br>
+				<br>
+				<input type="text" name="email" placeholder="Email" size="35" class="required" minlength="15" maxlength="30">
+				<input type="text" name="telefoni" placeholder="Telefoni" size="35" class="required" minlength="9" maxlength="19">
+			<div class="pagesa">
+					<h2><u>Metoda e pagesës</u></h2>
+					<br>
+					<div id="kartelat">
+						<img src="images/Visa.jpg" width="115" height="75" /><img src="images/MasterCard.jpg" width="115" height="75" />
+						<br><input type="radio" name="card" value="1" required>	<input type="radio" name="card" value="2" required>
+					</div>
+					<br>
+					<input type="text" name="emripersonit" placeholder="Emri i personit" size="25" class="required" minlength="5" maxlength="15">
+					<input type="text" name="numrikarteles" placeholder="Numri i kartelës" size="25" class="required" minlength="15" maxlength="20">
+					<br>
+					<br>
+					<input type="text" name="muaji" placeholder="MM" size="2" class="required" minlength="2" maxlength="2">
+					<input type="text" name="viti" placeholder="YY" size="2" class="required" minlength="2" maxlength="2">
+					<input type="text" name="kodisigurise" placeholder="Kodi i sigurisë" size="9" class="required" minlength="3" maxlength="4">
+					<button id="myButton">Konfirmo Blerjen</button>
+			</div>
+		</div>
+		</form>
+		<script type="text/javascript" src="scripts/buynow.js"></script>
+    <footer>
+			<div id="logo2">
+			<img src="images/tech-zone-cover.png" width="250" height="100" />
+			</div>
+			<p><i>Copyright &copy; 2020 Tech Zone. Të gjitha të drejtat e rezervuara.</i></p>
+	</footer>
+	</body>
+</html>
