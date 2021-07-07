@@ -1,0 +1,1351 @@
+html {
+	scroll-behavior: smooth;
+}
+
+/* ==================== DESKTOP ==================== */
+/* ____________________ HEADER ___________________ */
+.headeri {
+	background-color: #292e44;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.headeri a {
+	color: white;
+	display: inline-block;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 25px 20px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.headeri a:hover {
+	color: black;
+	background-color: #d1d1d1;
+}
+
+.headeri img {
+	float: left;
+	margin-top: 2px;
+	margin-left: 75px;
+    margin-right: auto;
+}
+
+.headeri input[type=text] {
+	float: right;
+	padding: 5px;
+	border: 2.5px solid silver;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: 75px;
+	font-size: 15px;
+	outline: none;
+}
+
+.headeri input[type=text]:focus {
+	background-color: #efefef;
+}
+
+/* ____________________ BODY ___________________ */
+body {
+	background-color: #e3e1e1;
+    text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.permbajtja {
+	margin-top: 100px;
+	font-size: 15px;
+}
+
+.slideshow-permbajtja {
+	max-width: 800px;
+	position: relative;
+	margin: auto;
+}
+  
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+.info {
+	border: 3px #0ba4e0;
+	border-style: ridge;
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20.5px;
+	text-align: center;
+}
+
+.produktet {
+	border: 3px #de72f5;
+	border-style: ridge;
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20.5px;
+	text-align: center;
+}
+
+.çmimet {
+	border: 3px #efc84a;
+	border-style: ridge;
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20.5px;
+	text-align: center;
+}
+
+.blerja {
+	border: 3px #36505f;
+	border-style: ridge;
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20.5px;
+	text-align: center;
+}
+
+.pagesa {
+	border: 3px #db2b42;
+	border-style: ridge;
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20.5px;
+	text-align: center;
+}
+
+.garancioni {
+	border: 3px #89c0c7;
+	border-style: ridge;
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20.5px;
+	text-align: center;
+}
+
+.transporti {
+	border: 3px #c1dae3;
+	border-style: ridge;
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20.5px;
+	text-align: center;
+}
+
+.kontakti {
+	border: 3px #58caef;
+	border-style: ridge;
+	margin-top: auto;
+	margin-bottom: 25px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20.5px;
+	text-align: center;
+}
+
+/* ____________________ FOOTER ___________________ */
+footer {
+	background-color: #141a32;
+	padding-top: 15px;
+	position: absolute;
+	bottom: 100;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+	padding-bottom: 15px;
+	font-size: 12.5px;
+	text-align: center;
+}
+
+#logo2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#teksti {
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	list-style-type: none;
+}
+
+#teksti li {
+	display: inline;
+	padding: 7.5px;
+	font-size: 15px;
+}
+
+#teksti a {
+	color: white;
+	padding: 5px 25px;
+	text-decoration: none;
+}
+
+#teksti a:hover {
+	color: black;
+	background-color: #d1d1d1;
+}
+
+#scroll-up {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ==================== LAPTOP+ ==================== */
+@media screen and (min-width: 1217px) and (max-width: 1425px) {
+/* _______________ HEADER-RESPONSIVE _______________ */
+	.headeri a {
+		padding: 25px 15px;
+		font-size: 1.2vw;
+	}
+
+	.headeri img {
+		float: left;
+		margin-top: 5px;
+		margin-left: 55px;
+		width: 60px;
+		height: 60px;
+	}
+
+	.headeri input[type=text] {
+		float: right;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		margin-right: 55px;
+		font-size: 1.2vw;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	.permbajtja {
+		margin-top: 100px;
+		font-size: 14px;
+	}
+
+	.slideshow-permbajtja {
+		max-width: 750px;
+	}
+
+	.paisjet img {
+		width: 160px;
+		height: 160px;
+	}
+
+	.info {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 275px;
+		margin-right: 275px;
+		padding-top: 10px;
+		padding-bottom: 72px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 16.5px;
+	}
+
+	.info img {
+		width: 235px;
+		height: 235px;
+	}
+
+	.produktet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 275px;
+		margin-right: 275px;
+		padding-top: 10px;
+		padding-bottom: 87px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 16.5px;
+	}
+	
+	.produktet img {
+		width: 235px;
+		height: 235px;
+	}
+
+	.çmimet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 275px;
+		margin-right: 275px;
+		padding-top: 10px;
+		padding-bottom: 115px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 16.5px;
+	}
+	
+	.çmimet img {
+		width: 235px;
+		height: 235px;
+	}
+	
+	.blerja {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 275px;
+		margin-right: 275px;
+		padding-top: 10px;
+		padding-bottom: 87px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 15.5px;
+	}
+	
+	.blerja img {
+		width: 235px;
+		height: 235px;
+	}
+	
+	.pagesa {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 275px;
+		margin-right: 275px;
+		padding-top: 10px;
+		padding-bottom: 110px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 16.5px;
+	}
+	
+	.pagesa img {
+		width: 235px;
+		height: 235px;
+	}
+	
+	.garancioni {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 275px;
+		margin-right: 275px;
+		padding-top: 10px;
+		padding-bottom: 135px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 16.5px;
+	}
+	
+	.garancioni img {
+		width: 235px;
+		height: 235px;
+	}
+	
+	.transporti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 275px;
+		margin-right: 275px;
+		padding-top: 10px;
+		padding-bottom: 90px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 15.5px;
+	}
+	
+	.transporti img {
+		width: 235px;
+		height: 235px;
+	}
+	
+	.kontakti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 275px;
+		margin-right: 275px;
+		padding-top: 10px;
+		padding-bottom: 92px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 16.5px;
+	}
+	
+	.kontakti img {
+		width: 235px;
+		height: 235px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer p {
+		font-size: 12px;
+	}
+
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#logo2 img {
+		width: 225px;
+		height: 75px;
+	}
+
+	#teksti {
+		margin-top: 35px;
+		margin-bottom: 35px;
+		margin-right: 30px;
+	}
+
+	#teksti li {
+		padding: 5.5px;
+		font-size: 1.2vw;
+	}
+
+	#teksti a {
+		padding: 5px 20px;
+	}
+
+	#scroll-up {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#scroll-up img {
+		width: 3.5vw;
+		height: 3.5vw;
+	}
+}
+
+
+/* ==================== LAPTOP ==================== */
+@media screen and (min-width: 1024px) and (max-width: 1216px) {
+/* _______________ HEADER-RESPONSIVE _______________ */
+	.headeri a {
+		padding: 25px 15px;
+		font-size: 1.2vw;
+	}
+	
+	.headeri img {
+		float: left;
+		margin-top: 10px;
+		margin-left: 65px;
+		width: 50px;
+		height: 50px;
+	}
+	
+	.headeri input[type=text] {
+		float: right;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		margin-right: 65px;
+		font-size: 1.2vw;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	.permbajtja {
+		margin-top: 90px;
+		font-size: 13px;
+	}
+
+	.slideshow-permbajtja {
+		max-width: 700px;
+	}
+
+	.paisjet img {
+		width: 145px;
+		height: 145px;
+	}
+
+	.info {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 65px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 15.5px;
+	}
+	
+	.info img {
+		width: 215px;
+		height: 215px;
+	}
+
+	.produktet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 80px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 15.5px;
+	}
+	
+	.produktet img {
+		width: 215px;
+		height: 215px;
+	}
+
+	.çmimet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 105px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 15.5px;
+	}
+	
+	.çmimet img {
+		width: 215px;
+		height: 215px;
+	}
+	
+	.blerja {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 75px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 14.5px;
+	}
+	
+	.blerja img {
+		width: 215px;
+		height: 215px;
+	}
+	
+	.pagesa {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 105px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 15.5px;
+	}
+	
+	.pagesa img {
+		width: 215px;
+		height: 215px;
+	}
+	
+	.garancioni {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 125px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 15.5px;
+	}
+	
+	.garancioni img {
+		width: 215px;
+		height: 215px;
+	}
+	
+	.transporti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 75px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 14.5px;
+	}
+	
+	.transporti img {
+		width: 215px;
+		height: 215px;
+	}
+	
+	.kontakti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		margin-right: 200px;
+		padding-top: 10px;
+		padding-bottom: 85px;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-size: 15.5px;
+	}
+	
+	.kontakti img {
+		width: 215px;
+		height: 215px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer p {
+		font-size: 11.5px;
+	}
+
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#logo2 img {
+		width: 195px;
+		height: 95px;
+	}
+
+	#teksti {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		margin-right: 30px;
+	}
+
+	#teksti li {
+		font-size: 1.5vw;
+	}
+
+	#teksti a {
+		padding: 4.5px 8.5px;
+	}
+
+	#scroll-up {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#scroll-up img {
+		width: 4.5vw;
+		height: 4.5vw;
+	}
+}
+
+
+/* ==================== TABLET+ ==================== */
+@media screen and (min-width: 815px) and (max-width: 1023px) {
+/* _______________ HEADER-RESPONSIVE _______________ */
+	.headeri {
+		padding-left: 15px;
+		padding-right: 35px;
+	}
+
+	.headeri a {
+		padding: 20px 10px;
+		font-size: 1.2vw;
+	}
+	
+	.headeri img {
+		float: left;
+		margin-top: 7.5px;
+		margin-left: 55px;
+		width: 40px;
+		height: 40px;
+	}
+	
+	.headeri input[type=text] {
+		float: right;
+		margin-top: 15px;
+		margin-bottom: 10px;
+		margin-right: 55px;
+		font-size: 1.2vw;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	.permbajtja {
+		margin-top: 75px;
+		font-size: 12px;
+	}
+
+	.slideshow-permbajtja {
+		max-width: 600px;
+	}
+
+	.paisjet img {
+		width: 130px;
+		height: 130px;
+	}
+
+	.info {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14.5px;
+	}
+	
+	.info img {
+		width: 195px;
+		height: 195px;
+	}
+	
+	.produktet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14.5px;
+	}
+	
+	.produktet img {
+		width: 195px;
+		height: 195px;
+	}
+
+	.çmimet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14.5px;
+	}
+	
+	.çmimet img {
+		width: 195px;
+		height: 195px;
+	}
+	
+	.blerja {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14px;
+	}
+	
+	.blerja img {
+		width: 195px;
+		height: 195px;
+	}
+	
+	.pagesa {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14.5px;
+	}
+	
+	.pagesa img {
+		width: 195px;
+		height: 195px;
+	}
+	
+	.garancioni {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14.5px;
+	}
+	
+	.garancioni img {
+		width: 195px;
+		height: 195px;
+	}
+	
+	.transporti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14.5px;
+	}
+	
+	.transporti img {
+		width: 195px;
+		height: 195px;
+	}
+	
+	.kontakti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 150px;
+		margin-right: 150px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14.5px;
+	}
+	
+	.kontakti img {
+		width: 195px;
+		height: 195px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer {
+		padding-left: 15px;
+		padding-right: 35px;
+	}
+
+	footer p {
+		font-size: 11px;
+	}
+
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#logo2 img {
+		width: 170px;
+		height: 75px;
+	}
+
+	#teksti {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		margin-right: 30px;
+	}
+
+	#teksti li {
+		font-size: 1.4vw;
+	}
+
+	#teksti a {
+		padding: 2.5px 4.5px;
+	}
+
+	#scroll-up {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#scroll-up img {
+		width: 5.5vw;
+		height: 5.5vw;
+	}
+}
+
+
+/* ==================== TABLET ==================== */
+@media screen and (min-width: 626px) and (max-width: 814px) {
+/* _______________ HEADER-RESPONSIVE _______________ */
+	.headeri a {
+		padding: 15px 10px;
+		margin-top: 12.5px;
+		font-size: 2vw;
+	}
+
+	.headeri img {
+		float: none;
+		display: block;
+		margin-left: 44vw;
+		width: 65px;
+		height: 65px;
+	}
+
+	.headeri input[type=text] {
+		float: none;
+		margin-bottom: 10px;
+		margin-left: 75px;
+		font-size: 2.5vw;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	.permbajtja {
+		margin-top: 220px;
+		font-size: 11px;
+	}
+
+	.slideshow-permbajtja {
+		max-width: 550px;
+	}
+
+	.paisjet img {
+		width: 115px;
+		height: 115px;
+	}
+
+	.info {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 75px;
+		margin-right: 75px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13.5px;
+	}
+	
+	.info img {
+		width: 185px;
+		height: 185px;
+	}
+	
+	.produktet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 75px;
+		margin-right: 75px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13.5px;
+	}
+	
+	.produktet img {
+		width: 185px;
+		height: 185px;
+	}
+
+	.çmimet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 75px;
+		margin-right: 75px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13.5px;
+	}
+	
+	.çmimet img {
+		width: 185px;
+		height: 185px;
+	}
+	
+	.blerja {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 75px;
+		margin-right: 75px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13px;
+	}
+	
+	.blerja img {
+		width: 185px;
+		height: 185px;
+	}
+	
+	.pagesa {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 75px;
+		margin-right: 75px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13.5px;
+	}
+	
+	.pagesa img {
+		width: 185px;
+		height: 185px;
+	}
+	
+	.garancioni {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 75px;
+		margin-right: 75px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13.5px;
+	}
+	
+	.garancioni img {
+		width: 185px;
+		height: 185px;
+	}
+	
+	.transporti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 75px;
+		margin-right: 75px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13.5px;
+	}
+	
+	.transporti img {
+		width: 185px;
+		height: 185px;
+	}
+	
+	.kontakti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 75px;
+		margin-right: 75px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 13.5px;
+	}
+	
+	.kontakti img {
+		width: 185px;
+		height: 185px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer p {
+		font-size: 10.5px;
+	}
+
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#logo2 img {
+		width: 185px;
+		height: 75px;
+	}
+
+	#teksti {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		margin-right: 25px;
+	}
+
+	#teksti li {
+		font-size: 2vw;
+	}
+
+	#teksti a {
+		padding: 1.5px 8.5px;
+	}
+
+	#scroll-up {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#scroll-up img {
+		width: 6.5vw;
+		height: 6.5vw;
+	}
+}
+
+
+/* ==================== MOBILE ==================== */
+@media screen and (min-device-width: 414px) and (max-width: 625px) {
+/* _______________ HEADER-RESPONSIVE _______________ */
+	.headeri a {
+		padding: 15px 10px;
+		margin-top: 12.5px;
+		font-size: 1.9vw;
+	}
+	
+	.headeri img {
+		float: none;
+		display: block;
+		margin-left: 42vw;
+		width: 60px;
+		height: 60px;
+	}
+	
+	.headeri input[type=text] {
+		float: none;
+		margin-bottom: 10px;
+		margin-left: 75px;
+		font-size: 2.5vw;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	.permbajtja {
+		margin-top: 195px;
+		font-size: 10px;
+	}
+
+	.slideshow-permbajtja {
+		max-width: 500px;
+	}
+
+	.paisjet img {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.info {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12.5px;
+	}
+	
+	.info img {
+		width: 175px;
+		height: 175px;
+	}
+
+	.produktet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12.5px;
+	}
+	
+	.produktet img {
+		width: 175px;
+		height: 175px;
+	}
+
+	.çmimet {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12.5px;
+	}
+	
+	.çmimet img {
+		width: 175px;
+		height: 175px;
+	}
+	
+	.blerja {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12px;
+	}
+	
+	.blerja img {
+		width: 175px;
+		height: 175px;
+	}
+	
+	.pagesa {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12.5px;
+	}
+	
+	.pagesa img {
+		width: 175px;
+		height: 175px;
+	}
+	
+	.garancioni {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12.5px;
+	}
+	
+	.garancioni img {
+		width: 175px;
+		height: 175px;
+	}
+	
+	.transporti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12.5px;
+	}
+	
+	.transporti img {
+		width: 175px;
+		height: 175px;
+	}
+	
+	.kontakti {
+		margin-top: auto;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 12.5px;
+	}
+	
+	.kontakti img {
+		width: 175px;
+		height: 175px;
+	}
+	
+	#rrjetetsociale {
+		float: none;
+		margin-left: 120px;
+	}
+
+	#rrjetetsociale img {
+		width: 6vw;
+		height: 6vw;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer p {
+		font-size: 10px;
+	}
+
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#logo2 img {
+		width: 200px;
+		height: 75px;
+	}
+
+	#teksti {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		margin-right: 25px;
+	}
+
+	#teksti li {
+		font-size: 2.1vw;
+	}
+
+	#teksti a {
+		padding: 2.5px 12.5px;
+	}
+
+	#scroll-up {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#scroll-up img {
+		width: 7.5vw;
+		height: 7.5vw;
+	}
+}
