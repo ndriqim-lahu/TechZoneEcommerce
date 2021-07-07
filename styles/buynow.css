@@ -1,0 +1,579 @@
+/* ==================== DESKTOP ==================== */
+/* ____________________ HEADER ___________________ */
+.headeri {
+	background-color: #292e44;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.headeri img {
+	margin-top: 2px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+/* ____________________ BODY ___________________ */
+body {
+	background-color: #e3e1e1;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#checkout {
+	margin-top: 100px;
+	text-align: center;
+}
+
+#termetKushtet {
+	color: white;
+	background-color: #ff3d3d;
+	cursor: pointer;
+	padding: 13px;
+	border-radius: 10px;
+	font-size: 15px;
+	outline: none;
+}
+  
+#termetKushtet:hover {
+	background-color: #ff0000;
+}
+
+.alert {
+    display: none;
+    position: absolute;
+	padding-top: 415px;
+	padding-bottom: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.alert-permbajtja {
+    background-color: #fefefe;
+    margin: auto;
+    padding-top: 25px;
+	padding-bottom: 35px;
+	padding-left: 100px;
+	padding-right: 100px;
+    border: 2.5px solid #f5f5f5;
+    border-radius: 10px;
+    width: 30%;
+	text-align: center;
+	animation-name: zoom;
+	animation-duration: 0.5s;
+}
+
+@keyframes zoom {
+	from {transform:scale(0)} 
+	to {transform:scale(1)}
+}
+
+.okay {
+    color: #ffffff;
+    background-color: #292e44;
+    border: 10px solid #292e44;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+    font-size: 30px;
+	font-weight: bold;
+}
+
+.okay:hover {
+    color: #e8e8e8;
+	cursor: pointer;
+}
+
+.klienti {
+	background-color: #d6d6d6;
+	border: 7.5px solid #666666;
+	border-radius: 10px;
+    margin-top: 35px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.klienti input[type=text] {
+	padding: 13px;
+	border: 2.5px solid silver;
+	border-radius: 10px;
+	font-size: 15px;
+	outline: none;
+}
+
+.klienti input[type=text]:focus {
+	background-color: #efefef;
+}
+
+.pagesa {
+	margin-top: 50px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+#kartelat img {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#kartelat input[type=radio] {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+#myButton {
+	color: white;
+	background-color: #4CAF50;
+	cursor: pointer;
+	padding: 13px;
+	border-radius: 10px;
+	font-size: 15px;
+	outline: none;
+}
+  
+#myButton:hover {
+	background-color: #45a049;
+}
+
+/* ____________________ FOOTER ___________________ */
+footer {
+	background-color: #141a32;
+	padding-top: 15px;
+	position: absolute;
+	bottom: 100;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+	padding-bottom: 25px;
+	font-size: 12.5px;
+	text-align: center;
+}
+
+#logo2 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ==================== LAPTOP+ ==================== */
+@media screen and (min-width: 1217px) and (max-width: 1425px) {
+/* _______________ HEADER-RESPONSIVE _______________ */
+	.headeri img {
+		width: 60px;
+		height: 60px;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	#checkout {
+		margin-top: 85px;
+	}
+	
+	.klienti input[type=text] {
+		padding: 12.5px;
+		font-size: 14.5px;
+	}
+
+	#termetKushtet {
+		padding: 12.5px;
+		font-size: 14.5px;
+	}
+
+	.alert {
+		padding-top: 400px;
+		padding-bottom: 100px;
+	}
+	
+	.alert-permbajtja {
+		padding-left: 90px;
+		padding-right: 90px;
+		font-size: 15px;
+	}
+
+	.alert-permbajtja img {
+		width: 70px;
+		height: 70px;
+	}
+	
+	.okay {
+		padding-left: 18.5px;
+		padding-right: 18.5px;
+		font-size: 28.5px;
+	}
+
+	.pagesa img {
+		width: 110px;
+		height: 70px;
+	}
+
+	#kartelat img {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#kartelat input[type=radio] {
+		margin-left: 67px;
+		margin-right: 67px;
+	}
+
+	#myButton {
+		padding: 12.5px;
+		font-size: 14.5px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer p {
+		font-size: 12px;
+	}
+				
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+				
+	#logo2 img {
+		width: 225px;
+		height: 75px;
+	}
+}
+
+
+/* ==================== LAPTOP ==================== */
+@media screen and (min-width: 1024px) and (max-width: 1216px) {
+/* _______________ HEADER-RESPONSIVE _______________ */
+	.headeri img {
+		width: 50px;
+		height: 50px;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	#checkout {
+		margin-top: 75px;
+	}
+
+	.klienti input[type=text] {
+		padding: 12px;
+		font-size: 14px;
+	}
+
+	#termetKushtet {
+		padding: 12px;
+		font-size: 14px;
+	}
+
+	.alert {
+		padding-top: 390px;
+		padding-bottom: 100px;
+	}
+	
+	.alert-permbajtja {
+		padding-top: 25px;
+		padding-bottom: 35px;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-size: 14px;
+	}
+
+	.alert-permbajtja img {
+		width: 65px;
+		height: 65px;
+	}
+	
+	.okay {
+		padding-left: 16.5px;
+		padding-right: 16.5px;
+		font-size: 26.5px;
+	}
+
+	.pagesa img {
+		width: 105px;
+		height: 65px;
+	}
+
+	#kartelat img {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#kartelat input[type=radio] {
+		margin-left: 57px;
+		margin-right: 57px;
+	}
+
+	#myButton {
+		padding: 12px;
+		font-size: 14px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer p {
+		font-size: 11.5px;
+	}
+				
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+				
+	#logo2 img {
+		width: 195px;
+		height: 95px;
+	}
+}
+
+
+/* ==================== TABLET+ ==================== */
+@media screen and (min-width: 815px) and (max-width: 1023px) {
+/* _______________ HEADER-RESPONSIVE _______________ */
+	.headeri img {
+		width: 40px;
+		height: 40px;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	#checkout {
+		margin-top: 65px;
+	}
+
+	.klienti input[type=text] {
+		padding: 13px;
+		font-size: 15px;
+	}
+
+	#termetKushtet {
+		padding: 13px;
+		font-size: 15px;
+	}
+
+	.alert {
+		padding-top: 380px;
+		padding-bottom: 100px;
+	}
+	
+	.alert-permbajtja {
+		padding-top: 25px;
+		padding-bottom: 35px;
+		padding-left: 70px;
+		padding-right: 70px;
+		font-size: 12px;
+	}
+
+	.alert-permbajtja img {
+		width: 60px;
+		height: 60px;
+	}
+	
+	.okay {
+		padding-left: 14.5px;
+		padding-right: 14.5px;
+		font-size: 24.5px;
+	}
+
+	.pagesa img {
+		width: 100px;
+		height: 60px;
+	}
+
+	#kartelat img {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#kartelat input[type=radio] {
+		margin-left: 57px;
+		margin-right: 57px;
+	}
+
+	#myButton {
+		padding: 13px;
+		font-size: 15px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */				
+	footer p {
+		font-size: 11px;
+	}
+					
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+					
+	#logo2 img {
+		width: 170px;
+		height: 75px;
+	}
+}
+
+
+/* ==================== TABLET ==================== */
+@media screen and (min-width: 626px) and (max-width: 814px) {
+/* _______________ HEADER-RESPONSIVE _______________ */					
+	.headeri img {
+		width: 65px;
+		height: 65px;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	#checkout {
+		margin-top: 85px;
+	}
+
+	.klienti input[type=text] {
+		padding: 12.5px;
+		font-size: 14.5px;
+	}
+
+	#termetKushtet {
+		padding: 12.5px;
+		font-size: 14.5px;
+	}
+
+	.alert {
+		padding-top: 395px;
+		padding-bottom: 200px;
+	}
+	
+	.alert-permbajtja {
+		padding-top: 25px;
+		padding-bottom: 35px;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-size: 12px;
+	}
+
+	.alert-permbajtja img {
+		width: 55px;
+		height: 55px;
+	}
+	
+	.okay {
+		padding-left: 12.5px;
+		padding-right: 12.5px;
+		font-size: 22.5px;
+	}
+
+	.pagesa img {
+		width: 90px;
+		height: 50px;
+	}
+
+	#kartelat img {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#kartelat input[type=radio] {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	#myButton {
+		padding: 12.5px;
+		font-size: 14.5px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer p {
+		font-size: 10.5px;
+	}
+				
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+				
+	#logo2 img {
+		width: 185px;
+		height: 75px;
+	}
+}
+
+
+/* ==================== MOBILE ==================== */
+@media screen and (min-device-width: 414px) and (max-width: 625px) {
+/* _______________ HEADER-RESPONSIVE _______________ */						
+	.headeri img {
+		width: 60px;
+		height: 60px;
+	}
+/* _______________ BODY-RESPONSIVE _______________ */
+	#checkout {
+		margin-top: 85px;
+	}
+
+	.klienti input[type=text] {
+		padding: 12px;
+		font-size: 14px;
+	}
+
+	#termetKushtet {
+		padding: 12px;
+		font-size: 14px;
+	}
+
+	.alert {
+		padding-top: 395px;
+		padding-bottom: 260px;
+	}
+	
+	.alert-permbajtja {
+		padding-top: 25px;
+		padding-bottom: 35px;
+		padding-left: 80px;
+		padding-right: 80px;
+		font-size: 12px;
+	}
+
+	.alert-permbajtja img {
+		width: 50px;
+		height: 50px;
+	}
+	
+	.okay {
+		padding-left: 10.5px;
+		padding-right: 10.5px;
+		font-size: 20.5px;
+	}
+
+	.pagesa img {
+		width: 85px;
+		height: 50px;
+	}
+
+	#kartelat img {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#kartelat input[type=radio] {
+		margin-left: 47px;
+		margin-right: 47px;
+	}
+
+	#myButton {
+		padding: 12px;
+		font-size: 14px;
+	}
+/* _______________ FOOTER-RESPONSIVE _______________ */
+	footer p {
+		font-size: 10px;
+	}
+				
+	#logo2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+				
+	#logo2 img {
+		width: 200px;
+		height: 75px;
+	}
+}
