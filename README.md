@@ -73,7 +73,8 @@ In order to open this website is required to have just a browser.
    ```terminal
    git clone https://github.com/ndriqimlahu/TestRepo.git
    ```
-2. After that you can launch the website by opening the `index.html` file.
+2. Open the repo folder.
+3. After that you can launch the website by opening the pages with extension `.html` file.
 
 
 <!-- USAGE -->
