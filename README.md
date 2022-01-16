@@ -6,9 +6,11 @@
     Ndriçim Lahu
     <br>
     <br>
-    <a href="https://github.com/ndriqimlahu/TestRepo/issues">Report Bug</a>
+    <a href="https://ndriqimlahu.github.io/TechZone/">View Demo</a>
     ·
-    <a href="https://github.com/ndriqimlahu/TestRepo/issues">Request Feature</a>
+    <a href="https://github.com/ndriqimlahu/TechZone/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ndriqimlahu/TechZone/issues">Request Feature</a>
   </p>
 </p>
 
@@ -80,10 +82,7 @@ In order to open this website is required to have just a browser.
 <!-- USAGE -->
 ## Usage
 
-If you want to check live this project, then you can click in this link:
-https://ndriqimlahu.github.io/TechZone/
-
-Also there you can see some useful additional screenshots of how the project looks like and how can be used.
+There you can see some useful additional screenshots of how the project looks like and how can be used.
 
 * Screenshots will be uploaded soon!
 
