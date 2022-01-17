@@ -66,7 +66,7 @@ By getting started with the project, first you need to take a look at the requir
 
 ### Prerequisites
 
-In order to open this website is required to have just a browser.
+In order to open this website is required to have an Browser (Google Chrome).
 
 
 ### Installation
@@ -75,7 +75,7 @@ In order to open this website is required to have just a browser.
    ```terminal
    git clone https://github.com/ndriqimlahu/TestRepo.git
    ```
-2. Open the repo folder and click in `index.html` file.
+2. Open the repo folder and launch the website with your Browser by clicking in the `index.html` file.
 3. Also you can open the other pages which are with extension `.html` file.
 
 
