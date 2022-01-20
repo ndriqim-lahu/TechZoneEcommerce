@@ -1,4 +1,4 @@
-<!-- PROJECT LOGO -->
+<!-- PROJECT SUMMARY -->
 <p align="center">
   <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/img/portfolio/TechZone.png" alt="Logo" width="250" height="250">
   <h3 align="center">Tech Zone</h3>
@@ -6,11 +6,11 @@
     Ndriçim Lahu
     <br>
     <br>
-    <a href="https://ndriqimlahu.github.io/TechZone/">View Website</a>
+    <a href="https://ndriqimlahu.github.io/TechZone/" target="_blank">View Website</a>
     ·
-    <a href="https://github.com/ndriqimlahu/TechZone/issues">Report Bug</a>
+    <a href="https://github.com/ndriqimlahu/TechZone/issues" target="_blank">Report Bug</a>
     ·
-    <a href="https://github.com/ndriqimlahu/TechZone/issues">Request Feature</a>
+    <a href="https://github.com/ndriqimlahu/TechZone/issues" target="_blank">Request Feature</a>
   </p>
 </p>
 
@@ -20,7 +20,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-project">About Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -40,8 +40,8 @@
 </details>
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ABOUT PROJECT -->
+## About Project
 
 The project called `Tech Zone` is an e-commerce website platform which aims to have an increase in the market in terms of sales of products or technological devices. In this website you can navigate into different pages which are “Fillimi”, “Kompjutera”, “Laptopa”, “Telefona”, “Tableta”, “Aksesorë”, and “Rreth Nesh”.
 
