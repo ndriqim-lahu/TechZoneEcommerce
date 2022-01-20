@@ -55,7 +55,6 @@ This e-commerce website platform is based on technologies like below:
 * HTML5
 * CSS3
 * JavaScript
-* Google Font API
 
 
 <!-- GETTING STARTED -->
