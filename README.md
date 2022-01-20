@@ -6,7 +6,7 @@
     Ndriçim Lahu
     <br>
     <br>
-    <a href="https://ndriqimlahu.github.io/TechZone/">View Demo</a>
+    <a href="https://ndriqimlahu.github.io/TechZone/">View Website</a>
     ·
     <a href="https://github.com/ndriqimlahu/TechZone/issues">Report Bug</a>
     ·
