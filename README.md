@@ -43,9 +43,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project called `Tech Zone` is an e-commerce website platform which aims to have an increase in the market in terms of sales of products or technological devices. In this website you can navigate into different pages which are “Fillimi”, “Kompjutera”, “Laptopa”, “Telefona”, “Tableta”, “Aksesorë”, and “Rreth Nesh”.
+The project called `Tech Zone` is an e-commerce website platform which aims to have an increase in the market in terms of sales of products or technological devices. In this website you can navigate into different pages which are “Fillimi”, “Kompjutera”, “Laptopa”, “Telefona”, “Tableta”, “Aksesorë” and “Rreth Nesh”.
 
-This project started from scratch where I worked and completed, also I made many improvements in the front-end side of Web Development, such as the designing and developing the entire platform, creating a slideshow for devices, adding transcitions and animations, also adding some features for the user side, and many more things.
+This project started from scratch where I worked and completed, also I made many improvements in the front-end side of Web Development, such as the designing and developing the entire platform, creating a slideshow for devices, adding transcitions and animations, adding some features for the user side and many more things.
 
 
 ### Built With
@@ -66,17 +66,18 @@ By getting started with the project, first you need to take a look at the requir
 
 ### Prerequisites
 
-In order to open this website is required to have an Browser (Google Chrome).
+In order to open this website is required to have an IDE or Code Editor (Visual Studio Code) and an Browser (Google Chrome).
 
 
 ### Installation
 
 1. Download the code or Clone the repo:
    ```terminal
-   git clone https://github.com/ndriqimlahu/TestRepo.git
+   git clone https://github.com/ndriqimlahu/TechZone.git
    ```
-2. Open the repo folder and launch the website with your Browser by clicking in the `index.html` file.
-3. Also you can open the other pages which are with extension `.html` file.
+2. Open the repo folder with an IDE or Code Editor.
+3. Launch the website with your Browser by clicking in the `index.html` file.
+4. Also you can open the other pages which are with extension `.html` file.
 
 
 <!-- USAGE -->
