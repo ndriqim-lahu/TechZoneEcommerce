@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/img/portfolio/TechZone.png" alt="Logo" width="250" height="250">
+  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/portfolio/TechZone.png" alt="Logo" width="250" height="250">
   <h3 align="center">Tech Zone</h3>
   <p align="center">
     Ndriçim Lahu
