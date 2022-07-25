@@ -83,38 +83,103 @@ In order to open this website is required to have an IDE or Code Editor (Visual 
 
 There you can see some useful additional screenshots of how the project looks like and how can be used.
 
+* Home page (Responsive for Desktop)
 <img src="preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png">
+
+* Home page (Responsive for Laptop)
 <img src="preview/01.2-Home%20page%20(Responsive%20for%20Laptop).png">
+
+* Home page (Responsive for Mobile)
 <img src="preview/01.3-Home%20page%20(Responsive%20for%20Mobile).png">
+
+* Computers page (Responsive for all Devices)
 <img src="preview/02.1-Computers%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Computers page (Responsive for all Devices)
 <img src="preview/02.2-Computers%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Computers page (Responsive for all Devices)
 <img src="preview/02.3-Computers%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Laptops page (Responsive for all Devices)
 <img src="preview/03.1-Laptops%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Laptops page (Responsive for all Devices)
 <img src="preview/03.2-Laptops%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Laptops page (Responsive for all Devices)
 <img src="preview/03.3-Laptops%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Mobiles page (Responsive for all Devices)
 <img src="preview/04.1-Mobiles%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Mobiles page (Responsive for all Devices)
 <img src="preview/04.2-Mobiles%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Mobiles page (Responsive for all Devices)
 <img src="preview/04.3-Mobiles%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Tablets page (Responsive for all Devices)
 <img src="preview/05.1-Tablets%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Tablets page (Responsive for all Devices)
 <img src="preview/05.2-Tablets%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Tablets page (Responsive for all Devices)
 <img src="preview/05.3-Tablets%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Accessories page (Responsive for all Devices)
 <img src="preview/06.1-Accessories%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Accessories page (Responsive for all Devices)
 <img src="preview/06.2-Accessories%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Accessories page (Responsive for all Devices)
 <img src="preview/06.3-Accessories%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Accessories page (Responsive for all Devices)
 <img src="preview/06.4-Accessories%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Feedback in Products page (Responsive for all Devices)
 <img src="preview/06.5-Feedback%20in%20Products%20page%20(Responsive%20for%20all%20Devices).png">
+
+* Buy Now page (Responsive for Desktop)
 <img src="preview/07.1-Buy%20Now%20page%20(Responsive%20for%20Desktop).png">
+
+* Buy Now page (Responsive for Desktop)
 <img src="preview/07.2-Buy%20Now%20page%20(Responsive%20for%20Desktop).png">
+
+* Buy Now page (Responsive for Desktop)
 <img src="preview/07.3-Buy%20Now%20page%20(Responsive%20for%20Desktop).png">
+
+* Buy Now page (Responsive for Laptop)
 <img src="preview/07.4-Buy%20Now%20page%20(Responsive%20for%20Laptop).png">
+
+* Buy Now page (Responsive for Laptop)
 <img src="preview/07.5-Buy%20Now%20page%20(Responsive%20for%20Laptop).png">
+
+* Buy Now page (Responsive for Laptop)
 <img src="preview/07.6-Buy%20Now%20page%20(Responsive%20for%20Laptop).png">
+
+* Buy Now page (Responsive for Mobile)
 <img src="preview/07.7-Buy%20Now%20page%20(Responsive%20for%20Mobile).png">
+
+* Buy Now page (Responsive for Mobile)
 <img src="preview/07.8-Buy%20Now%20page%20(Responsive%20for%20Mobile).png">
+
+* Buy Now page (Responsive for Mobile)
 <img src="preview/07.9-Buy%20Now%20page%20(Responsive%20for%20Mobile).png">
+
+* About Us page (Responsive for all Devices)
 <img src="preview/08.1-About%20Us%20page%20(Responsive%20for%20all%20Devices).png">
+
+* About Us page (Responsive for all Devices)
 <img src="preview/08.2-About%20Us%20page%20(Responsive%20for%20all%20Devices).png">
+
+* About Us page (Responsive for all Devices)
 <img src="preview/08.3-About%20Us%20page%20(Responsive%20for%20all%20Devices).png">
+
+* About Us page (Responsive for all Devices)
 <img src="preview/08.4-About%20Us%20page%20(Responsive%20for%20all%20Devices).png">
 
 
