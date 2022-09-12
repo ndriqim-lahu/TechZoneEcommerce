@@ -33,7 +33,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#copyright">Copyright</a></li>
+    <li><a href="#license">License</a></li>
     <li><a href="#support">Support</a></li>
   </ol>
 </details>
@@ -183,10 +183,10 @@ There you can see some useful additional screenshots of how the project looks li
 <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/08.4-About%20Us%20page%20(Responsive%20for%20all%20Devices).png">
 
 
-<!-- COPYRIGHT -->
-## Copyright
+<!-- LICENSE -->
+## License
 
-See the `COPYRIGHT` file for more information.
+See the `LICENSE` file for more information.
 
 
 <!-- SUPPORT -->
