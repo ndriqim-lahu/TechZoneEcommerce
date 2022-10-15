@@ -1,49 +1,76 @@
+/* ==================== ALERT BOX ==================== */
+var btn = document.getElementById("termetKushtet");
+var box = document.getElementById("myBox");
+var span = document.getElementsByClassName("okay")[0];
+
+btn.onclick = function() {
+    box.style.display = "block";
+}
+
+span.onclick = function() {
+    box.style.display = "none";
+    location.reload();
+}
+
 /* ==================== REQUIRED INPUTS ==================== */
-function isBlank(inputField){
-    if(inputField.type === ""){
-        if(inputField.checked){
+function isBlank(inputField) {
+    if(inputField.type === "") {
+        if(inputField.checked) {
             return false;
         }
         return true;
     }
-    if(inputField.value === ""){
+    if(inputField.value === "") {
         return true;
     }
     return false;
 }
 
-function makeRed(inputDiv){
+function makeRed(inputDiv) {
     inputDiv.style.borderColor = "red";
 }
 
-function makeClean(inputDiv){
+function makeClean(inputDiv) {
     inputDiv.style.borderColor = "silver";
 }
 
-window.onload = function(){
+window.onload = function() {
     var mainForm = this.document.getElementById("mainForm");
     var requiredInputs = document.querySelectorAll(".required");
-    mainForm.onsubmit = function(e){
-        for(var i = 0; i < requiredInputs.length; i++){
-            if(isBlank(requiredInputs[i])){
+    mainForm.onsubmit = function(e) {
+        for(var i = 0; i < requiredInputs.length; i++) {
+            if(isBlank(requiredInputs[i])) {
                 e.preventDefault();
                 makeRed(requiredInputs[i]);
             }
-            else{
+            else {
                 makeClean(requiredInputs[i]);
             }
         }
     }
 }
 
-/* ==================== ALERT BOX ==================== */
-var btn = document.getElementById("termetKushtet");
-var box = document.getElementById("myBox");
-var span = document.getElementsByClassName("okay")[0];
-btn.onclick = function(){
-    box.style.display = "block";
+/* ==================== COPYRIGHT YEAR ==================== */
+function copyrightYear() {
+  document.querySelector('#copyright-year').innerText = new Date().getFullYear();
 }
-span.onclick = function(){
-    box.style.display = "none";
-    location.reload();
+window.onload = copyrightYear();
+
+/* ==================== DISABLE RIGHT-CLICK ==================== */
+function disableRightClick() {
+	document.addEventListener("contextmenu", (e) => {
+		e.preventDefault();
+	}, false);
 }
+window.onload = disableRightClick();
+
+/* ==================== DISABLE CONTROL & FUNCTION KEYS ==================== */
+function disableShortcutKey() {
+	document.addEventListener("keydown", (e) => {
+	  if (e.ctrlKey || (e.keyCode>=112 && e.keyCode<=123)) {
+		e.stopPropagation();
+		e.preventDefault();
+	  }
+	});
+}
+window.onload = disableShortcutKey();
