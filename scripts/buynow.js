@@ -9,10 +9,10 @@ btn.onclick = function() {
 
 span.onclick = function() {
     box.style.display = "none";
-    location.reload();
+    window.reload();
 }
 
-/* ==================== REQUIRED INPUTS ==================== */
+/* ==================== FORM VALIDATION ==================== */
 function isBlank(inputField) {
     if(inputField.type === "") {
         if(inputField.checked) {
@@ -34,7 +34,7 @@ function makeClean(inputDiv) {
     inputDiv.style.borderColor = "silver";
 }
 
-window.onload = function() {
+function formValidation() {
     var mainForm = this.document.getElementById("mainForm");
     var requiredInputs = document.querySelectorAll(".required");
     mainForm.onsubmit = function(e) {
@@ -49,6 +49,7 @@ window.onload = function() {
         }
     }
 }
+formValidation();
 
 /* ==================== COPYRIGHT YEAR ==================== */
 function copyrightYear() {
