@@ -42,14 +42,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project called `Tech Zone` is an e-commerce website platform which aims to have an increase in the market in terms of sales of products or technological devices. In this website you can navigate into different pages which are “Fillimi”, “Kompjutera”, “Laptopa”, “Telefona”, “Tableta”, “Aksesorë” and “Rreth Nesh”.
+The project called `Tech Zone` is an e-commerce website which aims to increase the market in terms of sales of the technology products or equipment. In this website you can navigate into different pages which are “Fillimi”, “Kompjutera”, “Laptopa”, “Telefona”, “Tableta”, “Aksesorë” and “Rreth Nesh”.
 
-This project started from scratch where I worked and completed, also I made many improvements in the front-end side of Web Development, such as the designing and developing the entire platform, creating a slideshow for devices, adding transcitions and animations, adding some features for the user side and many more things.
+This project started from scratch where I worked and completed, also I made many improvements in the front-end side of Web Development, such as the designing and developing the entire platform, creating a slideshow for devices, adding transitions and animations, adding some features for the user side and many more things.
 
 
 ### Built With
 
-This e-commerce website platform is based on technologies like below:
+This website is based on technologies like below:
 
 * HTML5
 * CSS3
