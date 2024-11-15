@@ -1,6 +1,6 @@
 # Tech Zone
 
-Tech Zone is a prototype e-commerce website designed and built to provide the essential functionalities of an online tech store, featuring a range of tech products from computers, laptops and tablets to smartphones, accessories and peripherals.
+**Tech Zone** is a prototype e-commerce website designed and built to provide the essential functionalities of an online tech store, featuring a range of tech products from computers, laptops and tablets to smartphones, accessories and peripherals.
 
 This project provides essential e-commerce interactions in a straightforward and approachable way. It simulates a realistic shopping experience, allowing visitors to browse tech products, view detailed information, and go through a checkout process, all designed to demonstrate the fundamental components of an e-commerce site.
 
