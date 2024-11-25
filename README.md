@@ -7,9 +7,9 @@ This project provides essential e-commerce interactions in a straightforward and
 ## Built With
 
 This website was developed using the following technologies:
-* **HTML**
-* **CSS**
-* **JavaScript**
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 ## Features
 
