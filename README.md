@@ -7,9 +7,9 @@ This project provides essential e-commerce interactions in a straightforward and
 ## Built With
 
 This website was developed using the following technologies:
-* HTML
-* CSS
-* JavaScript
+* **HTML**
+* **CSS**
+* **JavaScript**
 
 ## Features
 
@@ -40,42 +40,42 @@ This website was developed using the following technologies:
 
 Below you can see some additional useful screenshots of what the website looks like and how it can be used:
 
-* Home page | Computers page
+- Home page | Computers page
 <div>
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png" align="top" width="48%" height="auto">
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/02.1-Computers%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
    <hr>
 </div>
 
-* Laptops page | Mobiles page
+- Laptops page | Mobiles page
 <div>
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/03.1-Laptops%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/04.1-Mobiles%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
    <hr>
 </div>
 
-* Tablets page | Accessories page
+- Tablets page | Accessories page
 <div>
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/05.1-Tablets%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/06.1-Accessories%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
    <hr>
 </div>
 
-* Checkout page | Checkout — Terms and Conditions
+- Checkout page | Checkout — Terms and Conditions
 <div>
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/07.1-Buy%20Now%20page%20(Responsive%20for%20Desktop).png" align="top" width="48%" height="auto">
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/07.2-Buy%20Now%20page%20(Responsive%20for%20Desktop).png" align="top" width="48%" height="auto">
    <hr>
 </div>
 
-* About Us page — Info | Products | Prices | Purchase
+- About Us page — Info | Products | Prices | Purchase
 <div>
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/08.1-About%20Us%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/08.2-About%20Us%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
    <hr>
 </div>
 
-* About Us page — Payment | Warranty | Shipping | Contact
+- About Us page — Payment | Warranty | Shipping | Contact
 <div>
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/08.3-About%20Us%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
    <img src="https://raw.githubusercontent.com/ndriqimlahu/tech-zone/main/preview/08.4-About%20Us%20page%20(Responsive%20for%20all%20Devices).png" align="top" width="48%" height="auto">
